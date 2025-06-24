@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+}
+.nav{
+    background-color: rgb(2, 2, 2);
+    align-items: center;
+    height: 80px;
+}
+.nav ul{
+  list-style-type: none;
+  width: 300px;
+  font-size: 18px;  
+  left: -220px;  
+}
+.nav button{
+    width: 6%;
+    height: 30px;
+    font-size: 15px;
+    margin-right: 135px;
+}
+.information p , .nav button {
+    font-weight: bold;
+}
+.nav button, .blue-nav{
+   background-color: #17a2b8;
+}
+.main , .nav ul,.user-info ,.education{
+    position: relative;
+}
+.main{
+    margin-top: 50px;
+    width: 1300px;
+    margin:30px auto;
+    justify-content: space-between;
+    
+}
+.user-info ,.education{
+    width: 650px;
+    padding-bottom: 20px;
+}
+.blue-nav{
+    height: 100px;
+}
+.image-one{
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 120px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.information{
+   padding: 25px 0 30px 30px ;
+}
+.information img{
+    width: 20px;
+}
+.information p{
+    font-size: 25px;
+}
+.information a{
+    font-size: 25px;
+}
+.education{
+    margin-top: 80px;
+    height: 250px;
+    border: 3px solid grey;
+    border-bottom: 0;
+}
+.first-grey-nav{
+    padding: 15px 0 0 30px;
+}
+.first-grey-nav,.second-grey-nav,.third-grey-nav{
+    background-color: #333333;
+    height: 50px;
+}
+.dojo p , .dojo h3{
+    margin-left: 30px;
+}
+.dojo p{
+    font-size: 35px;
+}
+.dojo h3{
+    color: gray;
+}
+.Connection-req , .information  ,.second-grey-nav , .third-grey-nav , .your-connections{
+    border: 2px solid grey;
+}
+.second-grey-nav , .third-grey-nav{
+    padding-bottom: 20px;
+    width: 350px;
+}
+.second-grey-nav h1 , .third-grey-nav h1{
+    text-align: center;
+}
+span{
+    padding: 7px;
+    border-radius: 50%;
+    background-color: rgb(206, 198, 198);
+    color: black;
+}
+.left h1 , .names img,.names a{
+    margin-left: 20px;
+}
+.left img,.right img ,.names img{
+    width: 40px;
+    border-radius: 50%;
+}
+.right{
+    display: grid;
+    margin-right: 10px;
+}
+.your-connections{
+    margin-top: 120px;
+    height: 430px;
+}
+.names a{
+    color: #3169a0;
+}
+.nav, .nav ul ,.main,.accept{
+    display: flex;
+}
+.nav{
+    justify-content: space-evenly;
+}
+.nav h1 ,.nav ul, .nav button,.first-grey-nav,.second-grey-nav h1 , .third-grey-nav h1  {
+    color: white;
+}
+.nav ul , .accept{
+    justify-content: space-between;
+}
+.first-grey-nav ,.names a ,.left h1 {
+    font-size: 35px;
+}
+.right-side{
+    margin-right: 133px;
+}
+.first-accept,.second-accept{
+    cursor: pointer;
+}
